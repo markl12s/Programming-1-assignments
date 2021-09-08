@@ -12,20 +12,28 @@
  * LAST MODIFIED : 8 Sep 2021 
 */
 
+import java.util.Scanner;
+
 public class GasPrice
 {
   public static void main(String[] args)
   {
     // constants and variables
-    final double GAS_PRICE = 2.799; 
+    Scanner in = new Scanner(System.in);
     
-    int    mileage;
+    double    mileage;
     int    mpg;
     double    gallons;
     double costPerMonth;
- 
-    // input data
-    mileage = 1000;
+    
+    //input data
+    System.out.print("Enter Monthly Mileage here: ");
+    System.out.print("Enter MPG                 :");
+    
+    
+    final double GAS_PRICE = 2.799; 
+    
+    mileage = in.nextDouble();
     mpg = 10;
     
     // process
