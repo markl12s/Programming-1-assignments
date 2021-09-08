@@ -3,7 +3,7 @@
  * 
  * ASSIGNMENT    : 0 
  * PROGRAM       : GasPrice.java 
- * PROGRAMMER    : Bob Harder 
+ * PROGRAMMER    : Mark Leard
  * 
  * DESCRIPTION   : Calculates monthly gas cost. 
  * 
