@@ -19,7 +19,7 @@ public class Main {
         int sizeInt = Integer.parseInt(sizeString);
 
         //comparison
-        if(weightInt > 99){
+        if(weightInt > 999){
             System.out.println("Too heavy");
         }
         if(sizeInt > 10){
