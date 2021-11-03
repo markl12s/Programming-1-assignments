@@ -20,21 +20,17 @@ public class Main {
 
             //recieve weight of package
             System.out.println("please input weight of package");
-            in = new Scanner(System.in);
-            String weightString = in.nextLine();
+            String weightString = in.next();
 
             //recieve size of package
             System.out.println("please input length of package");
-            in = new Scanner(System.in);
-            String lengthString = in.nextLine();
+            String weightString = in.next();
 
             System.out.println("Please input width of package");
-            in = new Scanner(System.in);
-            String widthString = in.nextLine();
+            String weightString = in.next();
 
             System.out.println("Please insert height of the package");
-            in = new Scanner(System.in);
-            String heightString = in.nextLine();
+            String weightString = in.next();
 
             //turn strings into variables
             int weightInt = Integer.parseInt(weightString);
