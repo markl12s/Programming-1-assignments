@@ -12,6 +12,7 @@ public class Main {
         int volume;
 
         Scanner in = new Scanner(System.in);
+        // this is allowing it to be either "Y" for Yes, or "N" for no for a simple boolean check in order to know if it should continue on
         char answer = 'Y';
 
         while(answer != 'N'){
@@ -26,19 +27,21 @@ public class Main {
             System.out.println("please input length of package");
             String weightString = in.next();
 
+            // recieve width
             System.out.println("Please input width of package");
             String weightString = in.next();
 
+            // recieve height
             System.out.println("Please insert height of the package");
             String weightString = in.next();
 
-            //turn strings into variables
+            //turn strings into integers
             int weightInt = Integer.parseInt(weightString);
             int widthInt = Integer.parseInt(widthString);
             int heightInt = Integer.parseInt(heightString);
             int lengthInt = Integer.parseInt(lengthString);
 
-            //calculate size
+            //calculate size, just use the area formula for a rectangular prism
             int sizeInt = widthInt * heightInt * lengthInt;
 
             //comparison
@@ -49,6 +52,7 @@ public class Main {
                 System.out.println("Too big");
             }
 
+            // this allows it to work even if the user did the wrong capitalization
             if (answer == 'n') {
                 answer = 'N';
             }}
