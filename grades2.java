@@ -36,7 +36,7 @@ public class Grades2 {
      int classNumber = i + 1;
      
      /* this is a switch statement, it is being used essentiall as a form of compact if statement
-     you can imagine how much larger this section of code would've been as a if statement. */
+     you can imagine how much larger this section of code would've been as a if statement. It's also far more readable in my opinion */
      switch (grades[i]){
        case 'a':
          System.out.println("Class " + classNumber + " :" + 4 + " quality points");
